@@ -1,28 +1,12 @@
-.search-bar {
-  margin: 20px;
-  text-align: center;
-}   
-
-.search-bar input {
-  width: 75%;
+.Ccentral {
+  width: 60%;
+  margin: 20px auto 20px;
 }
 
-.list-group-item {
-  cursor : pointer;
+.Ccentral1 {
+  background-color: orange;
+  height: 55px;
+  width: 33%;
+  display: inline-block;
+  border: 1px solid black;
 }
-
-.list-group-item:hover{
-  background-color: #eee;
-}
-
-.media-body p{
-  text-align: center;
-}
-
-.artist-detail .details {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
