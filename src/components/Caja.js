@@ -22,7 +22,7 @@ const Caja = () => (
             <h5>Saldo Final: {}</h5>           
         </div> 
         <div className="cont-boton">
-        <button type="button" class="btn btn-primary">Cuadrar Caja</button>
+        <button type="button" className="btn btn-primary">Cuadrar Caja</button>
         </div>       
     </div>    
 )
