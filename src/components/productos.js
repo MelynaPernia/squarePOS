@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListaProductos = () =>(
+const ListaProductos = ( {data}) =>(
     <div>
 
         productos
