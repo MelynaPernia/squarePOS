@@ -1,45 +1,45 @@
 {
-  "productos": [{
+  "products": [{
       "id": 1,
       "name": "Chocolate con leche",
       "price": 8.50,
       "stock": 20,
-      "photo": "https://goo.gl/images/cxskAg",
+      "photo": "https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/espanol/2000x1125/chocolate_caliente_mexicano_recipes_2000x1125.ashx?vd=20160513T194838Z&hash=7E55CFD55FC9E6C4C18F7C1CFBD8E468F7811C64",
       "coin": "S/."
     }, {
       "id": 2,
       "name": "Chocolate",
       "price": 6.00,
       "stock": 25,
-      "photo": "https://goo.gl/images/53g8NC",
+      "photo": "https://www.verybestbaking.com/recipes/122171/chocolate-caliente-mexican-hot-chocolate",
       "coin": "S/."
     }, {
       "id": 3,
       "name": "Café capuchino",
       "price": 9.00,
       "stock": 25,
-      "photo": "https://goo.gl/images/3f311D",
+      "photo": "https://t1.rg.ltmcdn.com/es/images/2/4/2/img_capuchino_16242_600.jpg",
       "coin": "S/."
     }, {
       "id": 4,
       "name": "Café espresso",
       "price": 10.50,
       "stock": 15,
-      "photo": "https://goo.gl/images/2QBZXZ",
+      "photo": "http://radio.unios.hr/wp-content/uploads/2018/01/Best-Coffee-Beans-For-Espresso.jpg",
       "coin": "S/."
     }, {
       "id": 5,
       "name": "Café americano",
       "price": 7.50,
       "stock": 10,
-      "photo": "https://goo.gl/images/G7atDd",
+      "photo": "https://i1.wp.com/cicaracaffe.com/stop&go/wp-content/uploads/2017/05/cafe-americano.jpg?fit=1000%2C675&ssl=1",
       "coin": "S/."
     }, {
       "id": 6,
       "name": "Té de manzana con canela",
       "price": 4.50,
       "stock": 15,
-      "photo": "https://goo.gl/images/a3CyXw",
+      "photo": "http://www.saudecorpo.com.br/wp-content/uploads/2017/01/cha-2.jpg",
       "coin": "S/."
     }, {
       "id": 7,
