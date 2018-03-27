@@ -1,0 +1,13 @@
+.inicial {
+    text-align: center;
+}
+.cont-inicial {
+    width: 150px;
+    height: 50px;
+    background: rgb(153, 230, 233);
+    display: inline-block;
+}
+.total {
+    text-align: center;
+    margin-top: 5%;
+}
