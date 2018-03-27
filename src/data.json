@@ -11,7 +11,7 @@
       "name": "Chocolate",
       "price": 6.00,
       "stock": 25,
-      "photo": "https://www.verybestbaking.com/recipes/122171/chocolate-caliente-mexican-hot-chocolate",
+      "photo": "https://ecs7.tokopedia.net/img/cache/300/product-1/2016/7/13/50956725/50956725_5af776db-61c2-4228-9826-faf841035c40.jpg",
       "coin": "S/."
     }, {
       "id": 3,
@@ -46,42 +46,42 @@
       "name": "Té de naranja",
       "price": 4.50,
       "stock": 8,
-      "photo": "https://goo.gl/images/hPq9nZ",
+      "photo": "https://www.buenasalud.net/wp-content/uploads/2015/11/Cascaras-de-naranjas-para-adelgazar-como-se-utilizan.jpg",
       "coin": "S/."
     }, {
       "id": 8,
       "name": "Té de durazno",
       "price": 4.50,
       "stock": 10,
-      "photo": "https://goo.gl/images/ugp7LS",
+      "photo": "https://1.bp.blogspot.com/-XMpl2kzcTdg/V84CkYPB3UI/AAAAAAAAA1Q/Fw-8pysIhX8EavzndU1SsQeLSXo5Exg5QCLcB/s1600/jugo-de-durazno-natural.jpg",
       "coin": "S/."
     }, {
       "id": 9,
       "name": "Té manzanilla",
       "price": 4.50,
       "stock": 10,
-      "photo": "https://goo.gl/images/R39qMJ",
+      "photo": "https://www.estilodevidasano.com/wp-content/uploads/2017/11/Te-de-manzanilla.jpg",
       "coin": "S/."
     }, {
       "id": 10,
       "name": "Té verde",
       "price": 6.50,
       "stock": 15,
-      "photo": "https://goo.gl/images/dsnI0G",
+      "photo": "http://te.aceitedearganweb.com/wp-content/uploads/2015/02/Te-Verde.jpg",
       "coin": "S/."
     }, {
       "id": 11,
       "name": "Jugo de fresa",
       "price": 7.50,
       "stock": 12,
-      "photo": "https://goo.gl/images/LARpkK",
+      "photo": "https://t2.uc.ltmcdn.com/images/1/8/8/img_42881_apa_276781_600.jpg",
       "coin": "S/."
     }, {
       "id": 12,
       "name": "Jugo de naranja",
       "price": 7.50,
       "stock": 12,
-      "photo": "https://goo.gl/images/vJATNf",
+      "photo": "http://saludenergiaymas.com/wp-content/uploads/2016/03/jugo-de-pi%C3%B1.jpg",
       "coin": "S/."
     }
   ],
