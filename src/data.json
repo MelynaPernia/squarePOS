@@ -1,0 +1,99 @@
+{
+  "productos": [{
+      "id": 1,
+      "name": "Chocolate con leche",
+      "price": 8.50,
+      "stock": 20,
+      "photo": "https://goo.gl/images/cxskAg",
+      "coin": "S/."
+    }, {
+      "id": 2,
+      "name": "Chocolate",
+      "price": 6.00,
+      "stock": 25,
+      "photo": "https://goo.gl/images/53g8NC",
+      "coin": "S/."
+    }, {
+      "id": 3,
+      "name": "Café capuchino",
+      "price": 9.00,
+      "stock": 25,
+      "photo": "https://goo.gl/images/3f311D",
+      "coin": "S/."
+    }, {
+      "id": 4,
+      "name": "Café espresso",
+      "price": 10.50,
+      "stock": 15,
+      "photo": "https://goo.gl/images/2QBZXZ",
+      "coin": "S/."
+    }, {
+      "id": 5,
+      "name": "Café americano",
+      "price": 7.50,
+      "stock": 10,
+      "photo": "https://goo.gl/images/G7atDd",
+      "coin": "S/."
+    }, {
+      "id": 6,
+      "name": "Té de manzana con canela",
+      "price": 4.50,
+      "stock": 15,
+      "photo": "https://goo.gl/images/a3CyXw",
+      "coin": "S/."
+    }, {
+      "id": 7,
+      "name": "Té de naranja",
+      "price": 4.50,
+      "stock": 8,
+      "photo": "https://goo.gl/images/hPq9nZ",
+      "coin": "S/."
+    }, {
+      "id": 8,
+      "name": "Té de durazno",
+      "price": 4.50,
+      "stock": 10,
+      "photo": "https://goo.gl/images/ugp7LS",
+      "coin": "S/."
+    }, {
+      "id": 9,
+      "name": "Té manzanilla",
+      "price": 4.50,
+      "stock": 10,
+      "photo": "https://goo.gl/images/R39qMJ",
+      "coin": "S/."
+    }, {
+      "id": 10,
+      "name": "Té verde",
+      "price": 6.50,
+      "stock": 15,
+      "photo": "https://goo.gl/images/dsnI0G",
+      "coin": "S/."
+    }, {
+      "id": 11,
+      "name": "Jugo de fresa",
+      "price": 7.50,
+      "stock": 12,
+      "photo": "https://goo.gl/images/LARpkK",
+      "coin": "S/."
+    }, {
+      "id": 12,
+      "name": "Jugo de naranja",
+      "price": 7.50,
+      "stock": 12,
+      "photo": "https://goo.gl/images/vJATNf",
+      "coin": "S/."
+    }
+  ],
+  "sale": {
+    "typeOfPay": {
+      "cash": 0,
+      "card": 0
+    },
+    "products": [{
+      "id": 1,
+      "cant": 6
+    }]
+  },
+  "salesHistory": [{}]
+}
