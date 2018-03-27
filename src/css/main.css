@@ -9,5 +9,15 @@
 }
 .total {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3.5%;
+}
+.cont-padre {
+    text-align: center;
+}
+.Pagos {
+    text-align: left;
+    margin-top:5%;
+}
+.cont-boton {
+    margin-top: 3%;
 }
