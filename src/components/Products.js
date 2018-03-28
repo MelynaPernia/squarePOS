@@ -7,18 +7,12 @@ const Products = ({ products, sale, addProduct, deleteProduct }) => (
       {sale.map((element, index) =>
         <SaleProducts key={index} id={element.id} products={products} cant={element.cant} />
       )}
-    </ul>
-
-    
+    </ul>    
 
       <div className="row m-0 p-0 w-100">
-        {console.log('products', products)}
+      
         {products.map(element =>
-          <ItemProducts key={element.id} products={element} addProduct={addProduct} />
-        )}
-
-        {products.map(element =>
-          <ItemProducts key={element.id} products={element} addProduct={addProduct} sale={addProduct} deleteProduct={deleteProduct} />
+          <ItemProducts key={element.id} products={element} addProduct={addProduct} deleteProduct={deleteProduct}/>
         )}
       </div>
     
