@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Products from '../components/Products'
+import SalesProducts from '../components/SalesProducts'
 import { addProduct } from '../actions/'
 
 function mapStateToProps(state) {
@@ -17,4 +17,4 @@ function mapDispatchToProps(dispatch) {
 
   }
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Products)
+export default connect(mapStateToProps, mapDispatchToProps)(SalesProducts)

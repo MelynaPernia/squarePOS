@@ -13,7 +13,7 @@ const Header = () => (
         <li className="nav-item">
           <a className="nav-link" href="#">Cierre de Cajas</a>
         </li>
-       
+
       </ul>
     </div>
   </nav>

@@ -4,14 +4,14 @@ import Header from './Header'
 import Search from './Search'
 import Products from '../containers/Products';
 import Caja from './Caja'
-
+import SaleProducts from './SaleProducts'
 
 const AppCoffe = () => (
   <div>
-    {/* {console.log(data)} */}
     <Header />
     <Search />
-    <Products/>
+    <Products />
+    <SaleProducts />
     <Caja />
   </div>
 )
