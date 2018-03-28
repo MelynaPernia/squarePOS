@@ -13,7 +13,7 @@ const Header = ({ navigateTo }) => (
         <li className="nav-item">
           <a className="nav-link" href="#/caja" onClick={() => navigateTo('caja')}>Cierre de Cajas</a>
         </li>
-       
+
       </ul>
     </div>
   </nav>

@@ -1,5 +1,5 @@
 export const ADD_PRODUCT = 'ADD_PRODUCT'
-export const DELECT_PRODUCT = 'DELECT_PRODUCT'
+export const DELETE_PRODUCT = 'DELETE_PRODUCT'
 
 export function addProduct(id) {
   return {
@@ -7,9 +7,9 @@ export function addProduct(id) {
     id
   }
 }
-export function delectProduct(id) {
+export function deleteProduct(id) {
   return {
-    type: DELECT_PRODUCT,
+    type: DELETE_PRODUCT,
     id
   }
 }
