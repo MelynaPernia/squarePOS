@@ -7,7 +7,7 @@ const ItemProducts = ({ products, addProduct, deleteProduct }) => (
       <h3 className="text-center font-weight-light">{products.name}</h3>
       <p className="text-center font-weight-bold">{`${products.coin} ${products.price}`}</p>
       <div className="d-flex justify-content-center">
-        <button id="increment" type="button" className="btn btn-primary btn-sm mr-3"
+        <button id="increment" type="button" className="btn  btn-sm mr-3 btn-color"
           onClick={() => {addProduct(products.id); console.log(products.name)}}
         >+</button>
         <button id="decrement" type="button" className="btn btn-secondary btn-sm"

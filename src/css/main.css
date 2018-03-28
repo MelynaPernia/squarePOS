@@ -62,16 +62,46 @@
 .h-400px{
     height: 420px;
     margin-bottom: 30px;
+    
+}
+.border {
+    border:1px solid #F18876 !important;
+}
+.form-control {
+    border:1px solid #F18876;
+    border-radius: 10px;
 }
 
 /*--lista--*/
 .lista {
-    background: rgb(94, 166, 224) ;
+  /*  background: rgb(94, 166, 224)*/ 
     border-radius: 5px;
     list-style: none;
     width: 250px;
+    padding-left: 4%;
+    font-weight: 500;
     margin-left: 0%;
 }
 .mb-0 {
     background: blue;
+}
+.boton {
+    border-radius: 18px;
+    margin-left: 35%;
+    color: #fff;
+    background: rgb(61, 54, 133);
+    
+}
+.btn-color {
+    background: #F18876;
+}
+
+@media (min-width:780px) {
+    .boton {
+       
+        margin-left: 45%;
+       
+        
+        
+    } 
 }
