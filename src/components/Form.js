@@ -14,7 +14,7 @@ const PaginaUno = ({navigateTo}) => (
           </div>
   
           <div>
-          <a href="#/pagina-2" onClick = {() => navigateTo('pagina-2')}> Ingresar</a>
+          <a className="btn btn-info" href="#/pagina-2" onClick = {() => navigateTo('pagina-2')}> Ingresar</a>
       </div>
       </form>
       <br />

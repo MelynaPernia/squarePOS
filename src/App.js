@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PaginaUno from './components/Form';
 import AppCoffe from './components/AppCoffe';
 import Caja from './components/Caja';
+import Header from './components/Header';
 
 
 
@@ -14,6 +15,8 @@ const App = ({paginaActual,navigateTo}) => {
       return <AppCoffe navigateTo={navigateTo} />
     case 'caja':
       return <Caja navigateTo={navigateTo}/>
+    case 'header':
+      return <Header navigateTo={navigateTo}/>
     default:
       break;
   }
