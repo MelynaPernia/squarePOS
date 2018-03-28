@@ -191,10 +191,9 @@
       "cash": 0,
       "card": 0
     },
-    "products": [{
-      "id": 1,
-      "cant": 6
-    }]
+    "products": [
+
+  ]
   },
   "salesHistory": [{}]
 }

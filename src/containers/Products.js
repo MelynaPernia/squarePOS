@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Products from '../components/Products'
-import { addProduct } from '../actions/'
+import { addProduct, deleteProduct } from '../actions/'
 
 function mapStateToProps(state) {
   return {
@@ -13,6 +13,9 @@ function mapDispatchToProps(dispatch) {
   return {
     addProduct: (id) => {
       dispatch(addProduct(id))
+    },
+    deleteProduct: (id) => {
+      dispatch(deleteProduct(id))
     }
 
   }

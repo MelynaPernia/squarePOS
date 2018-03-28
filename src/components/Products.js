@@ -1,11 +1,12 @@
 import React from 'react'
 import ItemProducts from './ItemProducts'
 import SaleProducts from './SaleProducts'
-const Products = ({ products, sale, addProduct }) => (
+const Products = ({ products, sale, addProduct, deleteProduct }) => (
   <div>
     <ul>
+      {/* {console.log(products)} */}
       {sale.map((element, index) =>
-        <SaleProducts key={index} id={element.id}  cant = {element.cant}/>
+        <SaleProducts key={index} id={element.id} products={products} cant={element.cant} />
       )}
     </ul>
 
@@ -13,7 +14,7 @@ const Products = ({ products, sale, addProduct }) => (
 
 
       {products.map(element =>
-        <ItemProducts key={element.id} products={element} addProduct={addProduct} sale={addProduct} />
+        <ItemProducts key={element.id} products={element} addProduct={addProduct} sale={addProduct} deleteProduct={deleteProduct} />
       )}
     </div>
   </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-const ItemProducts = ({ products, sale, addProduct }) => (
+const ItemProducts = ({ products, sale, addProduct, deleteProduct }) => (
   <div className="col-12 col-sm-3">
     <img className="img-fluid" src={products.photo} />
     <p>{products.name}</p>
@@ -7,7 +7,7 @@ const ItemProducts = ({ products, sale, addProduct }) => (
     <div>
       <button id="increment" type="button" className="btn btn-primary btn-sm"
         onClick={() => addProduct(products.id)}>+</button>
-      <button id="decrement" type="button" className="btn btn-secondary btn-sm" >-</button>
+      <button id="decrement" type="button" className="btn btn-secondary btn-sm" onClick={() =>  deleteProduct(products.id)} >-</button>
     </div>
   </div>
 )
