@@ -3,9 +3,9 @@ import ItemProducts from './ItemProducts'
 import SaleProducts from './SaleProducts'
 const Products = ({ products, sale, addProduct, deleteProduct }) => (
   <div>
-    <ul className="bg-light fixed-bottom mb-0">
+    <ul className=" bg-light fixed-bottom mb-0  ">
       {sale.map((element, index) =>
-        <SaleProducts key={index} id={element.id} products={products} cant={element.cant} />
+        <SaleProducts className="" key={index} id={element.id} products={products} cant={element.cant} />
       )}
     </ul>
 

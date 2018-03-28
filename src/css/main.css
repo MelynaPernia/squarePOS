@@ -63,3 +63,12 @@
     height: 420px;
     margin-bottom: 30px;
 }
+
+/*--lista--*/
+.lista {
+    background: rgb(94, 166, 224) ;
+    border-radius: 5px;
+    list-style: none;
+    width: 250px;
+    margin-left: 0%;
+}

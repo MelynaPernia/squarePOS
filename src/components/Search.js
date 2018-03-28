@@ -5,7 +5,7 @@ const Search = () => (
     <br/>
     <div className="form-group d-flex justify-content-center">
       <div className="col-7">
-        <input type="text" className="form-control" placeholder="Producto..." />
+        <input type="text" className="form-control" placeholder="Producto..."  />
         <br/>
       </div>
     </div>
