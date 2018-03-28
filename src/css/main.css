@@ -85,6 +85,11 @@
 .mb-0 {
     background: blue;
 }
+
+.m-t-20px{
+    margin: 20px 0;
+}
+
 .boton {
     border-radius: 18px;
     margin-left: 35%;
