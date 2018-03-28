@@ -17,6 +17,13 @@ export default (state,action)=> {
                 }
             }
         }
+        case 'NAVIGATE_TO':
+        console.log('action',action.type);
+        console.log('estado',...state)
+			return {
+                ...state,
+				paginaActual: action.pagina
+			}
     }
     return state
 }

@@ -196,5 +196,7 @@
       "cant": 6
     }]
   },
-  "salesHistory": [{}]
+  "salesHistory": [{}],
+  "paginaActual": "pagina-1"
+
 }

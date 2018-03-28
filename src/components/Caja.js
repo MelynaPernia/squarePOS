@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const Caja = () => (
+const Caja = ({navigateTo}) => (
     <div className="cont-padre">
         <h1>Cuadre de cajas</h1>
         <h2>Ventas del Día </h2>
@@ -23,7 +23,8 @@ const Caja = () => (
         </div> 
         <div className="cont-boton">
         <button type="button" className="btn btn-primary">Cuadrar Caja</button>
-        </div>       
+        </div>  
+        <a href="#/pagina-1" onClick={() => navigateTo('pagina-2')} >Regresar al menu de productos </a><br />     
     </div>    
 )
 export default Caja
