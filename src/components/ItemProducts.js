@@ -4,7 +4,7 @@ const ItemProducts = ({ products,  addProduct }) => (
     <div className="border h-400px">
     <img className="img-fluid w-100" src={products.photo} />
     <h3 className="text-center font-weight-light">{products.name}</h3>
-    <p className="text-center font-weight-bold">{products.price}</p>
+    <p className="text-center font-weight-bold">{`${products.coin} ${products.price}`}</p>
     <div className="d-flex justify-content-center">
       <button id="increment" type="button" className="btn btn-primary btn-sm mr-3" 
        onClick={() => addProduct(products.id)}
