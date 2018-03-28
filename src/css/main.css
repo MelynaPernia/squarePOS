@@ -4,8 +4,10 @@
 .cont-inicial {
     width: 150px;
     height: 50px;
-    background: rgb(153, 230, 233);
+    border-radius: 5px;
+    background: rgb(243, 192, 183);
     display: inline-block;
+
 }
 .total {
     text-align: center;
@@ -17,10 +19,17 @@
 .Pagos {
     text-align: left;
     margin-top:5%;
+    margin-left: 10%;
+}
+.Pagos ul li {
+    list-style: none;
+    font-weight: 500;
+    margin: 2%;
 }
 .cont-boton {
     margin-top: 3%;
 }
+
 
 
 /*------------------------------ */
@@ -99,14 +108,14 @@
 }
 .btn-color {
     background: #F18876;
+    color:#fff;
 }
 
 @media (min-width:780px) {
     .boton {
-       
-        margin-left: 45%;
-       
-        
-        
+        margin-left: 45%;  
     } 
+    .Pagos {
+        margin-left: 25%;
+    }
 }
