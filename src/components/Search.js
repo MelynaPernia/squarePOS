@@ -2,9 +2,11 @@ import React from 'react'
 
 const Search = () => (
   <form>
-    <div className="form-row">
+    <br/>
+    <div className="form-group d-flex justify-content-center">
       <div className="col-7">
         <input type="text" className="form-control" placeholder="City" />
+        <br/>
       </div>
     </div>
   </form>
