@@ -1,7 +1,26 @@
 import React from 'react'
 const Caja = ({navigateTo}) => (
     <div className="cont-padre">
-        <h1>Cuadre de cajas</h1>
+        
+  <div className="card text-center">
+    <div className="card-header">
+         Featured
+    </div>
+    <div class="card-body">
+        <h5 classNme="card-title">Special title treatment</h5>
+        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div className="card-footer text-muted">
+     2 days ago
+    </div>
+    </div>
+
+
+
+
+
+
         <h2>Ventas del Día </h2>
         <hr />
         <div className="inicial">
